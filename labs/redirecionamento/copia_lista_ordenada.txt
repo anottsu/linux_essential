@@ -1,0 +1,2 @@
+ms-wbt-server	3389/tcp
+ssh		22/tcp				# SSH Remote Login Protocol
