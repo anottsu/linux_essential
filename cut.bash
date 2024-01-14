@@ -32,10 +32,12 @@ cat logs_sysd.txt | cut -d " " -f6-9 // (DE F6 A F9) // melhor opção pois é m
 
  cat logs_sysd.txt | cut -d " " -f1-3,6- //(DE F1 ATE F3 3 DE F6 ATÉ O FIM)
 
+// COMBINANDO COM MAIS COMANDOS E SALVANDO UMA COPIA
 
-//SALVANDO UMA CÓPIA DO ARQUIVO 
+cat logs_sysd.txt | tail -20 | cut -d " " -f1-3,-6 | sort >> ~/Documentos/02-\ ALURA/08-\ shell\ Linux/labs/redirecionamento/logs_sysd03.txt
 
-cat logs_sysd.txt | cut -d " " -f1-3,6- >> ~/Documentos/02-\ ALURA/08-\ shell\ Linux/labs/redirecionamento/logs_sysd02.txt // ----- ATENÇÃO ----- LEMBRE FAZER UMA CÓPIA OU O ARQUIVO ORIGINAL PODE SER SOBRESCRITO
+// ---- ATENÇÃO ----- LEMBRE DE FAZER UMA CÓPIA OU O ARQUIVO ORIGINAL PODE SER SOBRESCRITO
+
 
 
 
