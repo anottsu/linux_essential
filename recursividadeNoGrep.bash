@@ -12,4 +12,4 @@ cd ..    // retorna ao diretorio anterior
 
 grep -r http * // procura recursivo (-r) http e exibe em services e services2  
 
-grep -rl http * // procura recursivo (-r) e lista (-l) que http  esta dentro do arquivo em services e services2 como
+grep -rl http * // procura recursivo (-r) e lista (-l) que http  esta dentro do arquivo em services e services2
